@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    background-color:black;
+    color: white;
+}
+.header{
+    width: 90%;
+    height: 100vh;
+    background-image: url(https://assets.vogue.com/photos/63d169f727f1d528635b4287/master/w_2560%2Cc_limit/GettyImages-1292563627.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+    /* background-color: #575656; */
+    /* background-blend-mode: multiply; */
+}
+nav {
+    color: white;
+    display: flex; 
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+
+nav a{
+    border: 0;
+    outline: 0;
+    color:white;
+    padding:10px;
+    font-size: 25px;
+    /* border-radius:4px; */
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    /* display: flex; */
+}
+
+.container1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 80px;
+ }
+
+
+.container1 h1{
+    font-size: 100px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px;
+
+}
+.container1 p{
+    font-size:50px;
+}
+.zmt input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left:0px;
+    margin-top: 5px;
+    border-radius:0px;
+    /* background-color: ; */
+    border: 0;
+    outline: 0;
+    /* color: white; */
+    font-size: 16px;
+    cursor: pointer;
+    padding:5px ;
+    /* background: red; */
+    border-radius:0px;
+
+}
